@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="J2K FRP Web Server">
+<meta name="generator" content="">
+<title>J2K FRP Web Server</title>
+<link rel="stylesheet" href="font-awesome.min.css">
+<link href="bootstrap.min.css" rel="stylesheet">
+<style>
+		.main {
+			padding-top: 15px;
+		}
+		.file-row {
+		  padding-top: 5px;
+		  margin-bottom: 0;
+		  background-color: #fff;
+		}
+		
+		.file-title {
+		  display: block;
+		  font-weight: 600;
+		  font-size: 16px;
+		  wordwrap: break-word;
+		}
+		
+		.copyright {
+		  font-size: 12px;
+		}
+
+		footer {
+		  padding-top: 3rem;
+		  padding-bottom: 3rem;
+		}
+
+		footer p {
+		  margin-bottom: .25rem;
+		}
+    .style1 {color: #FF0000}
+.style3 {color: #FF0000; font-weight: bold; }
+</style>
+</head>
+<body>
+<header>
+<div class="navbar navbar-dark bg-dark shadow-sm">
+<div class="container d-flex justify-content-between">
+<a href="#" class="navbar-brand d-flex align-items-center">
+<strong>J2K FRP Web Server</strong>
+</a>
+</div>
+</div>
+</header>
+<main role="main" class="main">
+<section class="">
+<div class="container" style="margin-bottom:10px;">
+
+<div class="row file-row">
+<div class="col-lg-12">
+  <span class="style3">DIRECT ACCESS SETTINGS</span> </div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.android.settings/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Setting App" height="16"> <span style="color:#000;">Settings App</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.sec.android.app.myfiles/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Setting App" height="16"> <span style="color:#000;">My Files</span></a></div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.samsung.android.contacts/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Samsung Contacts" height="16"> <span style="color:#000;">Samsung Contacts</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.google.android.calculator/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Calculator" height="16"> <span style="color:#000;">Calculator</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.sec.android.app.samsungapps/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Setting App" height="16"> <span style="color:#000;">Galaxy Store</span></a></div>
+</div>
+
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.google.android.googlequicksearchbox/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="gg-search-app.png" alt="Google Search App" height="16"></a>
+</div>
+</div>
+
+
+<div class="row file-row">
+<div class="col-lg-12">
+  <span class="style3">DIRECT ACCESS LAUNCHERS</span> </div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.android.launcher2.Launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Samsung Launcher" height="16"> <span style="color:#000;">Samsung Launcher</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.android.launcher3.GoogleNowPanel/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Moto Launcher" height="16"> <span style="color:#000;">Moto Launcher</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.tct.launcher.Launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Alcatel Launcher" height="16"> <span style="color:#000;">Alcatel Launcher</span></a>
+</div>
+</div>
+
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.huawei.android.launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="Huawei Launcher" height="16"> <span style="color:#000;">Huawei Launcher</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.android.launcher3.Launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="setting-app.png" alt="ZTE Launcher" height="16"> <span style="color:#000;">ZTE Launcher</span></a>
+</div>
+</div>
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.teslacoilsw.launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="nova-launcher.png" alt="Nova Launcher" height="16"> <span style="color:#000;">Nova Launcher</span></a>
+</div>
+</div>
+
+
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="intent://com.anddoes.launcher/#Intent;scheme=android-app;end" data-wpel-link="internal"><i class="fa fa-caret-right"></i> Open <img src="apex-launcher.png" alt="Apex Launcher" height="16"> <span style="color:#000;">Apex Launcher</span></a>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12 style1"><strong> Google Account Managers</strong></div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="GoogleAccountManger5.apk" target="_self"><i class="fa fa-file"></i> Google Account Manger 5.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="GoogleAccountManger6.apk" target="_self"><i class="fa fa-file"></i> Google Account Manger 6.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="GoogleAccountManger8.apk" target="_self"><i class="fa fa-file"></i> Google Account Manger 8.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="GoogleAccountManger9.apk" target="_self"><i class="fa fa-file"></i> Google Account Manger 9.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Android_8-9_GAM.apk" target="_self"><i class="fa fa-file"></i> Android_8-9_GAM.apk</a>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row file-row">
+<div class="style1 col-lg-12"><strong> LAUNCHERS</strong></div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Apex_Launcher310.apk" target="_self"><i class="fa fa-file"></i> Apex_Launcher310.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Apex_Launcher333.apk" target="_self"><i class="fa fa-file"></i> Apex_Launcher333.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Nova_Launcher_v5.5.4.apk" target="_self"><i class="fa fa-file"></i> Nova_Launcher_v5.5.4.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="style1 col-lg-12"><strong> APPLICATIONS</strong></div>
+</div>
+</div>
+
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Development_Settings.apk" target="_self"><i class="fa fa-file"></i> Development_Settings.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="ES_File_Explorer.apk" target="_self"><i class="fa fa-file"></i> ES_File_Explorer.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="FRP_Android_7.apk" target="_self"><i class="fa fa-file"></i> FRP_Android_7.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="FRP_Bypass.apk" target="_self"><i class="fa fa-file"></i> FRP_Bypass.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="FRP_addROM.apk" target="_self"><i class="fa fa-file"></i> FRP_addROM.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="File_Commander_Manager.apk" target="_self"><i class="fa fa-file"></i> File_Commander_Manager.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="GooglePlayService.apk" target="_self"><i class="fa fa-file"></i> Google Play Service.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Menu_Button.apk" target="_self"><i class="fa fa-file"></i> Menu_Button.apk</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Phone_Clone.apk" target="_self"><i class="fa fa-file"></i> Phone_Clone.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="QuickShortcutMaker.apk" target="_self"><i class="fa fa-file"></i> QuickShortcutMaker.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Setting.apk" target="_self"><i class="fa fa-file"></i> Setting.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Smart_Switch_Mobile.apk" target="_self"><i class="fa fa-file"></i> Smart_Switch_Mobile.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="Test_DPC.apk" target="_self"><i class="fa fa-file"></i> Test_DPC.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="hushsms.apk" target="_self"><i class="fa fa-file"></i> hushsms.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="remote%20gsmedge.apk" target="_self"><i class="fa fa-file"></i> remote gsmedge.apk</a>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="technocare.apk" target="_self"><i class="fa fa-file"></i> technocare.apk</a>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="style1 col-lg-12"><strong> URLS</strong></div>
+</div>
+</div>
+
+<div class="container">
+<div class="row file-row">
+<div class="col-lg-12">
+<a class="file-title" href="https://www.samsung.com/vn/apps/galaxy-store/" target="_blank"><i class="fa fa-caret-right"></i> Open <img src="galaxy-store.png" alt="Galaxy Store" height="16"></a>
+</div>
+</div>
+</div>
+
+
+
+</section>
+</main>
+<footer class="text-muted">
+<div class="container">
+<p class="float-right">
+<a href="#"><i class="fa fa-arrow-up"></i></a>
+</p>
+<p class="copyright">Copyright © 2020 <a href="https://j2k-solutions.com/">J2K Solutions</a>.</p>
+</div>
+</footer>
+<script src="jquery.slim.min.js.descarga" type="text/javascript"></script>
+<script src="bootstrap.bundle.min.js.descarga" type="text/javascript"></script>
+
+</body></html>
